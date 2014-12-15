@@ -56,7 +56,7 @@ if ($step==3 && (!is_writable('../inc/db-conf.php') || !is_writable('../inc/driv
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BitcoinDice 1.0 - Installation</title>
+    <title>BitcoinDice 2.0 - Installation</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./install_page.css">
     <link rel="shortcut icon" href="./favicon.ico">
@@ -65,7 +65,7 @@ if ($step==3 && (!is_writable('../inc/db-conf.php') || !is_writable('../inc/driv
   <body>
     <div class="allbody">
       <div class="alls" style="text-align: center;">
-        <h1>BitcoinDice 1.0 Installation</h1>
+        <h1>BitcoinDice 2.0 Installation</h1>
       </div>
     </div>
     <?php
@@ -242,7 +242,7 @@ if ($step==3 && (!is_writable('../inc/db-conf.php') || !is_writable('../inc/driv
         <div class="allbody">
           <div class="alls">
             <h3>CRON setup</h3>
-            In order to BitcoinDice work properly, you must have the CRON set this way:
+            In order to BitcoinDice 2.0 to work properly, you must have the CRON set this way:
             <br><br>
             <b>Every 1 minute</b>: <i>content/cron/check_deposits.php</i>
             <br><br><hr>
