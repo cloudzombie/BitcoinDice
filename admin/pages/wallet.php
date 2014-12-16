@@ -51,7 +51,7 @@ if ($page==1) {
   <b>Receiving address:</b><br>
   <big>
   <?php
-    echo $pagedon;
+    echo $wallet->getnewaddress();
   ?>
   </big>
   </div>
