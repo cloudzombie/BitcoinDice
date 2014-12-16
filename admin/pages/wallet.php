@@ -21,7 +21,6 @@ else $lima=0;
 $query_=mysql_query("SELECT * FROM `transactions` ORDER BY `time` DESC LIMIT $lima,$perPage");
 $pocet=mysql_num_rows(mysql_query("SELECT `id` FROM `transactions`"));
 $pages_=$pocet/$perPage;
-$pagedon="1Fe4crxUFZE5JGzJ5pqG1pUgXEnSpjbWjw";
 $xplosion=explode('.',(string)$pages_);
 $pages=(int)$xplosion[0]+1;
 
