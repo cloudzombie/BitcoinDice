@@ -14,6 +14,7 @@ $perPage=20;
 $page=1;
 if (!empty($_GET['_page']) && is_numeric($_GET['_page']) && is_int((int)$_GET['_page'])) {
   $page=(int)$_GET['_page'];
+  
   $lima=-$perPage+($page*$perPage);
 }
 else $lima=0;  
